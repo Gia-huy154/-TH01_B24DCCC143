@@ -1,0 +1,22 @@
+/* src/App.css */
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.product-item,
+.cart-item {
+  margin-bottom: 10px;
+}
+
+.product-item button {
+  margin-left: 15px;
+}
+
+.shopping-cart {
+  border-left: 2px solid #61dafb;
+  padding-left: 20px;
+}
